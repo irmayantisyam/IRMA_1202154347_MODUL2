@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="20dp"
+    android:paddingRight="40dp"
+    android:paddingLeft="40dp"
+    tools:context="com.example.irmayantisyam.irma_1202154347_modul2.DineIn">
+
+    <TextView
+        android:id="@+id/dtlCust"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Detail Customer"
+        android:textSize="35dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"/>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Name"
+        android:paddingTop="20dp"
+        android:paddingBottom="10dp"
+        android:inputType="textPersonName" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:paddingTop="20dp"
+        android:paddingBottom="30dp">
+
+        <TextView
+            android:id="@+id/noMeja"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="No. Meja"
+            android:textSize="20dp"/>
+
+        <Spinner
+            android:id="@+id/sMeja"
+            android:layout_width="79dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorAccent"
+            android:scrollbarSize="20dp"/>
+
+    </LinearLayout>
+
+    <Button
+
+        android:id="@+id/btPesanan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:onClick="pilihpesanan"
+        android:text="Pilih pesanan" />
+</LinearLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">IRMA_1202154347_MODUL2</string>
+    <string name="date">"Tanggal: "</string>
+    <string name="date_picker">datePicker</string>
+    <string name="time_picker">timePicker</string>
+    <string name="time">"Waktu: "</string>
+    <string-array name="labels_array">
+        <item>Pilih Meja</item>
+        <item>Meja 1</item>
+        <item>Meja 2</item>
+        <item>Meja 3</item>
+    </string-array>
+</resources>
